@@ -8,7 +8,7 @@ const app = express()
 //const DATABASE_URL="mongodb://localhost:27017/empdata"
 
 
-mongoose.connect("mongodb://admin:admin@localhost:27017/empdata").then(()=>{
+mongoose.connect("mongodb://roleadmin:admin@localhost:27017/empdata").then(()=>{
     console.log('database connected')
 })
 
